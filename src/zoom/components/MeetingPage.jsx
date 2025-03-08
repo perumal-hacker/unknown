@@ -77,6 +77,7 @@ const MeetingPage = () => {
             <p>{meeting.description}</p>
             <p><strong>Time:</strong> {meeting.time}</p>
             <p><strong>Seats Available:</strong> {meeting.seats}</p>
+            <button className="join-btn">Join</button>
           </div>
         ))}
       </div>
