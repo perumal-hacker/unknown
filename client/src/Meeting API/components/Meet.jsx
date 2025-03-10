@@ -2,6 +2,7 @@
 import { GoogleOAuthProvider, useGoogleLogin } from '@react-oauth/google';
 import { useState } from 'react';
 import createMeeting from './googleCalendar';
+import './meet.css'
 
 
 // Define LoginButton as a separate component within the same file
