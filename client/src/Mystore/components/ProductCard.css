@@ -1,0 +1,127 @@
+.product-card {
+  background-color: #fff;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 500px;
+  margin: 15px;
+}
+
+.product-image-placeholder {
+  width: 100%;
+  height: 200px;
+  background-color: #ddd;
+  border: 2px solid #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.product-image-placeholder::before {
+  content: "X";
+  font-size: 40px;
+  color: #888;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-grow: 1; /* Ensures details fill the remaining space */
+}
+
+.product-details h3 {
+  margin: 0;
+  font-size: 18px; /* Matches the bold title in the image */
+  color: #2c3e50;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-details p {
+  margin: 0;
+  font-size: 14px; /* Matches the description font size */
+  color: #7f8c8d;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-height: 25px; /* Limits to one line (1.5 * 14px) */
+}
+
+.product-info {
+  display: flex;
+  justify-content:space-around; /* Creates two columns: price on left, stock on right */
+  margin-top: 25px; /* Pushes info to the bottom of details */
+}
+
+.info-column {
+  display: flex;
+  flex-direction: column; /* Stacks label and value vertically within each column */
+  gap: 5px; /* Space between label and value */
+}
+
+.info-item {
+  display: block; /* Ensures each item takes its own line */
+}
+
+.price-name,
+.stock-name {
+  font-size: 15px;
+  color: #34495e;
+  font-weight: 700; /* Slightly bold for labels */
+}
+
+.price-val,
+.stock-val {
+  font-size: 30px;
+  color: #34495e;
+  font-weight: bold; /* Bold for values */
+}
+
+.product-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: auto; /* Adds space above buttons */
+}
+
+.edit-btn {
+  flex: 1;
+  padding: 8px;
+  background-color: #2c3e50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  height: 45px;
+  width: 75;
+}
+
+.edit-btn:hover {
+  background-color: #34495e;
+}
+
+.delete-btn {
+  flex: 1;
+  padding: 8px;
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+  color: white;
+}
