@@ -1,19 +1,18 @@
-/* App.css */
-body {
-    margin: 60px; /* Increased margin to 60px on all sides for more spacing */
+/* body {
+    margin: 60px; 
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9; /* Ensures background extends to edges */
+    background-color: #f9f9f9;
   }
   
   .app-container {
     max-width: 1200px;
-    margin: 0 auto; /* Centers the container */
-    padding: 20px; /* Internal padding to match the image's spacing */
-    background-color: #fff; /* White background for the content area */
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #fff; 
     color: #333;
-    border-radius: 8px; /* Matches the card style */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Matches the card shadow */
-  }
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+   } 
   
- 
+  */
